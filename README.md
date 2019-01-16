@@ -1,6 +1,6 @@
 Introduction - Forrest Finder: Find Parks Near You!
 
-https://akeemjohn.github.io/CapstoneNPS-/
+https://akeemjohn.github.io/ForrestFinder/
 
 This is an API for finding a park near you by placing the initials of the desired state.
 
