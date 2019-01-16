@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  background: url('https://i.imgur.com/SGAhgED.jpg') fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+img {
+  width: 250px;
+}
+
+form {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+li {
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+h1 {
+    margin: 50px auto;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: darkgreen;
+    background-color: white;
+    border: 5px solid darkgreen;
+}
+
+h2 {
+    margin: 50px auto;
+    width: 500px;
+    font-size: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    border: 5px solid white;
+}
+
+.error-message {
+    color: red;
+}
+
+.wrapper {
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+  text-align: center;
+	margin: 2px;
+	padding: 10px;
+}
+
+.columns2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column2 {
+	flex: 1;
+  text-align: center;
+	margin: 2px;
+	padding: 10px;
+}
+
+footer {
+  color: white;
+  text-shadow: 1px 1px darkgreen;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+

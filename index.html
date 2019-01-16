@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NPS API Capstone</title>
+   <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+
+   <div class="wrapper">
+
+	  <header role="banner">
+		  <h1>Forrest Finder: Find Parks Near You!</h1>
+	  </header>
+
+      <form id="js-form">
+        <label for="search-term">State Initials: </label>
+          <input type="text" placeholder="NY" name="search-term" id="js-search-term" required>
+          <input type="submit" value="Go!">
+      </form>
+		
+      <section class="columns" role="region">
+	      <div class="column">
+          <img src="https://i.imgur.com/8FchNEZ.png" alt="NPS">
+	      </div>
+      </section>	
+
+      <p id="js-error-message" class="error-message"></p>
+      <section id="results" class="hidden" role="region">
+        <h2>Search results</h2>
+          <ul id="results-list">
+          </ul>
+      </section>
+	
+  </div>
+
+ <footer role="contentinfo">
+   <p>Made by Akeem John</p>
+ </footer>
+
+<script type="text/javascript" src="app.js"></script>
+</body> 
+ 
+</html>
